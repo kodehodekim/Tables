@@ -1,0 +1,83 @@
+/* Tables */
+body {
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("img/marek-piwnicki-5-0kIZ7pFh4-unsplash.jpg");
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  margin-top: 80px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 0px white;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  align-items: center;
+  /* border: 1px solid #ffff; */
+  height: 60px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  border: 1px solid #ffff;
+  margin: 0 auto;
+}
+
+th:hover,
+td:hover {
+  background-color: darkgrey;
+}
+
+td {
+  width: 100px;
+  font-size: 14px;
+  border: 1px solid #ffff;
+}
+
+.benj {
+  background-color: lightgrey;
+}
+
+.len {
+  background-color: lightgrey;
+}
+
+.kim {
+  background-color: lightblue;
+}
+
+.live {
+  background-color: lightblue;
+}
+
+.header {
+  background-color: grey;
+}
+
+input {
+  width: 100px;
+  height: 30px;
+}
+
+input[type="text"] {
+  width: 50px;
+  height: 20px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 80%;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,75 @@
+/* Tables v3 */
+body {
+  align-items: center;
+  background-color: lightcyan;
+  background-image: url("img/age-barros-rBPOfVqROzY-unsplash.jpg");
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 0px black;
+}
+table,
+th,
+td {
+  text-align: center;
+  border: 2px solid black;
+  height: 60px;
+  margin: 15px auto;
+  border-collapse: collapse;
+}
+
+th:hover,
+td:hover {
+  background-color: darkgrey;
+}
+
+td {
+  width: 100px;
+  font-size: 14px;
+}
+
+.benj {
+  background-color: lightgrey;
+}
+
+.len {
+  background-color: lightgrey;
+}
+
+.kim {
+  background-color: lightblue;
+}
+
+.live {
+  background-color: lightblue;
+}
+
+.header {
+  background-color: grey;
+}
+
+textarea {
+  width: 100px;
+  height: 30px;
+}
+
+input[type="text"] {
+  width: 50px;
+  height: 20px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 80%;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
